@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,500&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-family: 'Abel', sans-serif;
+}
+nav .container-fluid .navbar-collapse .navbar-nav > li > a{
+	color: white;
+	text-transform: uppercase;
+	padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#header a{
+	font-size: 18px;
+	font-weight: normal;
+}
+#header a:hover{
+	color: gray
+}
+.navbar-nav { 
+	margin-left: auto; 
+} 
+#back-img{
+	background-image: url("../assets/image.png"); 
+	background-size: 100%;
+	height:auto;
+	background-repeat: no-repeat;
+
+}
+#homepage-text{
+	font-size: 40px;
+	font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	color: white;
+}
+.parallax{
+    background-image: url('/assets/doc6.jpg');
+    min-height: 200px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+    color: white;
+    padding: 20px;
+    background-color: #8064A2;
+}
+.footer2{
+    min-height: 50px;
+    background-color: #8064A2;
+    text-align: center;
+}
+.icon{
+    background:white;
+    border-radius: 40%;
+    padding: 8px;
+    margin: 10px;
+    flex: 1;
+    transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+.icon:hover{
+    background: #8064A2;
+    color:#8064A2;
+    box-shadow: 0 0 5px #8064A2;
+    text-shadow: 0 0 5px #8064A2;
+}
+.icon1{
+    background:white;
+    border-radius: 40%;
+    padding: 14px;
+    margin: 10px;
+    flex: 1;
+    transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+.icon1:hover{
+    background: #8064A2;
+    color:#8064A2;
+    box-shadow: 0 0 5px #8064A2;
+    text-shadow: 0 0 5px #8064A2;
+}
+@media screen and (max-width: 1024px) {
+    .icon {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .icon1 {
+        display: none !important;
+    }
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
